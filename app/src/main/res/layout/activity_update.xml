@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingBottom="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:background="@drawable/image1"
+    tools:context=".Update">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/id"
+        android:textColor="#F4A460"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/id"
+        android:textColor="#F4A460"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nama"
+        android:textColor="#F4A460"/>
+
+    <TextView
+        android:id="@+id/update_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#F4A460"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/umur"
+        android:textColor="#F4A460"/>
+
+    <TextView
+        android:id="@+id/update_umur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#F4A460"/>
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:textColor="#F4A460"
+        android:text="@string/date_selected"/>
+
+
+    <Button
+        android:id="@+id/btn_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom1"
+        android:layout_marginTop="30dp"
+        android:layout_margin="10dp"
+        android:textColor="#F4A460"
+        android:text="@string/update"
+        android:textSize="20sp"/>
+
+</LinearLayout>

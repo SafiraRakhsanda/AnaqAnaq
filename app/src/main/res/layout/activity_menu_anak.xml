@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp"
+    android:paddingBottom="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image1"
+    tools:context=".MenuAnak">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/id"
+        android:textColor="#F4A460"/>
+
+    <EditText
+        android:id="@+id/buat_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textCapWords"
+        android:textColor="#F4A460"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nama"
+        android:textColor="#F4A460"/>
+
+    <EditText
+        android:id="@+id/nama_anak"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textCapWords"
+        android:textColor="#F4A460"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/umur"
+        android:textColor="#F4A460"/>
+
+    <EditText
+        android:id="@+id/umur_anak"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textCapWords"
+        android:textColor="#F4A460"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tinggi"
+        android:textColor="#F4A460"/>
+
+    <EditText
+        android:id="@+id/tinggi_badan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/cm"
+        android:textColorHint="#F4A460"
+        android:textColor="#F4A460"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/berat"
+        android:textColor="#F4A460"/>
+
+    <EditText
+        android:id="@+id/berat_badan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/kg"
+        android:textColorHint="#F4A460"
+        android:textColor="#F4A460"/>
+
+
+     <Button
+         android:id="@+id/button1"
+         android:background="@drawable/custom1"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_margin="10dp"
+         android:text="@string/create"
+         android:textSize="20sp"
+         android:textColor="#F4A460"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:background="@drawable/custom1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/see_data"
+        android:textSize="20sp"
+        android:textColor="#F4A460"/>
+
+
+</LinearLayout>

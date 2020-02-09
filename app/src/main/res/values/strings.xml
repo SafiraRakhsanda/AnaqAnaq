@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">AnaqAnaq</string>
+    <string name="welcome">Home Screen</string>
+    <string name="next">LANJUT</string>
+    <string name="skip">LEWATI</string>
+    <string name="start">MULAI</string>
+
+    <string name="slide1">SELAMAT DATANG</string>
+    <string name="slide1_desc">Terima Kasih Sudah Menginstall Aplikasi AnaqAnaq</string>
+
+    <string name="slide2">ARTIKEL KESEHATAN</string>
+    <string name="slide2_desc">Perdalam Ilmu Kesehatan Anda Dengan Membaca Artikel-Artikel tsb</string>
+
+    <string name="slide3">MENU ANAK</string>
+    <string name="slide3_desc">Daftarkan Anak Anda Untuk Medapatkan Imunisasi Terpercaya dan Termurah</string>
+
+    <string name="slide4">SELAMAT MENGGUNAKAN</string>
+    <string name="slide4_desc">Semoga Anda Merasa Nyaman Ketika Menggunakan Aplikasi Ini</string>
+    <string name="mulai">Mulai Lagi Slider</string>
+    <string name="home_screen">Home Screen</string>
+    <string name="artikel">Artikel Kesehatan</string>
+    <string name="menu_anak">Menu Anak</string>
+    <string name="anak">Daftarkan Anak Anda</string>
+    <string name="nama">Nama Anak</string>
+    <string name="umur">Umur Anak</string>
+    <string name="tinggi">Tinggi Badan</string>
+    <string name="berat">Berat Badan</string>
+    <string name="create">Tambah Data Anak</string>
+    <string name="see_data">Lihat Data</string>
+    <string name="kg">Pake \"kg\" Dibelakangnya ya</string>
+    <string name="cm">Pake \"cm\" Dibelakangnya ya</string>
+    <string name="tanggal">Tanggal, Bulan &amp; Tahun</string>
+    <string name="update">UPDATE</string>
+    <string name="tgl">tanggal/bulan/tahun</string>
+    <string name="id">ID</string>
+    <string name="date_selected" />
+    <string name="choose_date">Atur Tanggal</string>
+
+</resources>
